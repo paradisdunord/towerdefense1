@@ -11,10 +11,17 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
 
       - uses: actions/setup-node@v5
         with:
           node-version: '20'
+
+      - run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
       - run: npm install -g pnpm
 
@@ -29,3 +36,5 @@ jobs:
           publish_branch: gh-pages
           publish_dir: ./out
           keep_files: false
+          clean: true
+          allow_empty_commit: true
