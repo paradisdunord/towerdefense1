@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[54197,["/towerdefense1/_next/static/chunks/0bjfudee_658~.js","/towerdefense1/_next/static/chunks/0gkdb-6gfrq38.js","/towerdefense1/_next/static/chunks/0eg8bi~o638_n.js"],"TowerDefenseGame"]
+3:I[46608,["/towerdefense1/_next/static/chunks/0bjfudee_658~.js","/towerdefense1/_next/static/chunks/0gkdb-6gfrq38.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{}],[["$","script","script-0",{"src":"/towerdefense1/_next/static/chunks/0eg8bi~o638_n.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"2FpR3dodFcy_WHtn_WMYz"}
+5:null
